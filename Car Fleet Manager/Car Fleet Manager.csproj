@@ -133,9 +133,6 @@
     <Resource Include="icon\automobile.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="icons8_car_50_A8Z_2.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Cemagraphics-Classic-Cars-Bmw-mini.ico" />
   </ItemGroup>
   <ItemGroup>
