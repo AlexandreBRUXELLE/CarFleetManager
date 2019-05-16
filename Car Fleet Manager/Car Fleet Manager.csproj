@@ -61,10 +61,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AboutWindow.xaml.cs">
+    <Compile Include="windows\AboutWindow.xaml.cs">
       <DependentUpon>AboutWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HelpDescriptionWindow.xaml.cs">
+    <Compile Include="windows\HelpDescriptionWindow.xaml.cs">
       <DependentUpon>HelpDescriptionWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="SunlistDBDataSet.Designer.cs">
@@ -72,11 +72,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SunlistDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Page Include="AboutWindow.xaml">
+    <Page Include="windows\AboutWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="HelpDescriptionWindow.xaml">
+    <Page Include="windows\HelpDescriptionWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -136,8 +136,6 @@
   <ItemGroup>
     <Resource Include="images\iconlogo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="windows\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
