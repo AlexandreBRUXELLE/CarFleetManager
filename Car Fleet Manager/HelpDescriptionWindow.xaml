@@ -12,7 +12,7 @@
             <ColumnDefinition Width="287*"/>
             <ColumnDefinition Width="445*"/>
         </Grid.ColumnDefinitions>
-        <Image Height="365" Margin="10,11,0,10" Source="icon/automobile.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Width="250" Grid.ColumnSpan="2"/>
+        <Image Height="365" Margin="10,11,0,10" Source="images/automobile.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Width="250" Grid.ColumnSpan="2"/>
         <RichTextBox x:Name="richDescriptionBox" HorizontalAlignment="Left" Margin="245,78,0,10" Width="466" IsReadOnly="True"  Grid.Column="1" Grid.ColumnSpan="2">
             <FlowDocument>
                 <Paragraph LineHeight="6" TextAlignment="Justify">

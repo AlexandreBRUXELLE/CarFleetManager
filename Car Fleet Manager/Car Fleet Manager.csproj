@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Cemagraphics-Classic-Cars-Bmw-mini.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Build.Tasks.v4.0" />
@@ -130,13 +131,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="icon\automobile.jpg" />
+    <Resource Include="images\automobile.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Cemagraphics-Classic-Cars-Bmw-mini.ico" />
+    <Resource Include="images\iconlogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="icon\iconlogo.png" />
+    <Folder Include="windows\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

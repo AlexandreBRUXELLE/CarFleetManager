@@ -10,7 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Image Margin="84,5,85,139" Source="icon/iconlogo.png"/>
+        <Image Margin="84,5,85,139" Source="images/iconlogo.png"/>
         <Label Content="Car Fleet Manager" Margin="0,128,0,92" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18"/>
         <Label Content="Author: Aleksandr Husliakov" Margin="93,170,92,0" Height="26" VerticalAlignment="Top"/>
         <Label Content="Special thanks: Denis Panjuta" Margin="93,222,0,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="172"/>
