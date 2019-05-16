@@ -1,0 +1,65 @@
+﻿<Window x:Class="Car_Fleet_Manager.HelpDescriptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Car_Fleet_Manager"
+        mc:Ignorable="d"
+        Title="Description" Height="415" Width="770" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="287*"/>
+            <ColumnDefinition Width="445*"/>
+        </Grid.ColumnDefinitions>
+        <Image Height="365" Margin="10,11,0,10" Source="icon/automobile.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Width="250" Grid.ColumnSpan="2"/>
+        <RichTextBox x:Name="richDescriptionBox" HorizontalAlignment="Left" Margin="245,78,0,10" Width="466" IsReadOnly="True"  Grid.Column="1" Grid.ColumnSpan="2">
+            <FlowDocument>
+                <Paragraph LineHeight="6" TextAlignment="Justify">
+                    <Run Text="Hi, this is the simple application that shows the database work using T-SQL queries."/>
+                    <Run Text=" "/>
+                    <Run Text="The application is created in the magic programming language C#. "/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run FontWeight="Bold" Text="The application has 3 lists. "/>
+                    <LineBreak/>
+                    <Run Text="List "/>
+                    <Run Text=" "/>
+                    <Run Text="#1 contains the names of all fleets. "/>
+                    <LineBreak/>
+                    <Run Text="List #2 contains all available machines that are in the selected fleet."/>
+                    <Run Text=" "/>
+                    <Run Text=" That is, lists #1 and #2 are linked together."/>
+                    <LineBreak/>
+                    <Run Text="And the last list #3 shows all new cars are available in 2019 that are in the registry."/>
+                </Paragraph>
+                <Paragraph LineHeight="6" TextAlignment="Justify">
+                    <Run/>
+                    <Run Text=" "/>
+                    <Run FontWeight="Bold"/>
+                </Paragraph>
+                <Paragraph LineHeight="6" TextAlignment="Justify">
+                    <Run FontWeight="Bold" Text="Several working buttons for working with lists."/>
+                    <LineBreak/>
+                    <Run Text="There are opportunities to add, update, and delete objects. All buttons have hints when hovering over them."/>
+                </Paragraph>
+                <Paragraph LineHeight="6" TextAlignment="Justify">
+                    <Run/>
+                    <Run Text=" "/>
+                    <Run FontWeight="Bold"/>
+                </Paragraph>
+                <Paragraph LineHeight="6" TextAlignment="Justify">
+                    <Run FontWeight="Bold" Text="Powerful input field."/>
+                    <LineBreak/>
+                    <Run FontWeight="Bold"/>
+                    <Run Text=" "/>
+                    <Run Text="Also, the application has an input field for editing object names in all 3 lists. With the &quot;Update&quot;"/>
+                    <Run Text=" button, you can set a written value."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="Car fleet Manager" Margin="245,10,18,0" FontSize="22" Background="{x:Null}" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
