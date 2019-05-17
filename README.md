@@ -6,7 +6,7 @@ Hello, dear reader! I am sure you are a fan of cars. Even if not, it will be a v
 ## Get started
 The application is called **"Car Fleet Manager"**. It is was developed in C# programming language and created on the old and good WPF technology. On the server side, T-SQL queries are used. So let's see a short demo how to app works.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e23ARn997sQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/e23ARn997sQ" frameborder="0" allowfullscreen></iframe>
 
 ## Connect to database
 The first, create a WPF project (.Net Framework). The next step you need to create a database (the *"Server Explorer"* window). Right-click on the *"Create New SQL Server Database..."* item.
@@ -52,7 +52,7 @@ There are opportunities to add, update, and delete objects in lists. All buttons
   
 Application has three windows. The Main Window looks like this. 
 
-![Main window](https://lh3.googleusercontent.com/muSiJJu4W4VWlYfmvLre3eY-G3QxA9bF4DyZVawA87KaNtSy8BGHZ_YShdOAIHxrdjaZ65-_IPKlEBvumAj78qc3NL3j1BJSuU3oMmCBX5cNvikJCKgPyd15zZ1gwpLASCWmnPslfzgqP7HguTOFoC7DGGAgjeSWDCrRcRggwIuU3na2bfQH_IZ1IMCJrUyOxVrxXJx05fPHcosD0czJP_l6EEkxdbICS-8iig5FybxuDkmP3a0XAQUEL8HGsNJ-lcNBCHpzAUOtUoo9eB0TmlKehV9xVTz3bXsp9u4oX3zYUjMYBjJB7QKq5RMUaY62ST1BloVMF161u_H_Sz28IABPyof9itdxvCUlE0hjmaYM8p9aJaP-RRlEijYL2-v5lsj08Icaomktgqjx0FLNrz85J0Qz5kPfHgX6v7wlGhNUJoJl7q_j7ApVdFcUmqnsfFZKoRDU_f6avx9oNwk_y2VkKCAjOQQ3LK9cG5OuTG4RxMKzPG9YlopDO9iniAwVziFaHKtyuj4gegDchVGkFQALHZ5xRvMjuzU_-yBHjXjB6RDDi1vLl0F60J3Uz7-SZoK8ZXfRvXepFTYj5hwouGC_uiWArgWjeJv6Pjmw79Upn3D0bwV0Xp0YxegYsmbc84diKOKXC-1PpwUd2_u1g5TkjXk4MCg=w886-h669-no)
+![MainWindow](https://lh3.googleusercontent.com/b_seff9EXmrz4KjxHH3fJg1utT4j-zdYyaK6zNhjzLKYQCur_0OSRb3cUn07Ul1qhcA69SRBlkQarup4pqfFuQ4snUNqG1n-V7lOkEkfg3vKvbezLRX78TbV39tWleM-vRfzRDU3rYK0oUAmUhC_f0XdUyP2394I6bZnBfYXojdWCesf8o1CguosyicPIv3QO9ttSYEpNkwOiuMBvoJBVDdYX5qnAG1kJKZGqz9-ZfgrwCGvmx9L8sm15iqbXtuN7WadP6pSG3jOW819nxl4VUVg4IMP6Pwd7S0W2EVQDeDS0WcQpXTTMnFUPg5HqWg4OU4zcI3SxHW010M4FBuTSMUjlLfakOJfccIizscoYTXNqcRkEpg_W7KAEpmZ6KD4hD4p7cQqsVaHfTMYqQ2FaHvlT8EOLKPBiRFdIGOEDtiB4j3KlNexQEuyGfjuonX3EhU1foIjjgnOvKudYRrIHZWxLnWEDNYrnfmETLiL3zhLWD8nhgTRDTyWMgTv517jgf1mq-Yh9cmWjDCSBYEcbzDisk1LbdOVAkZFK-olRvejyFfYjHsQ3bonjz4H8kb2s82asm4PQSsBChkFsZLI8r_hgvv9JFQ1PSreuyudpwe836xWPg5tC8NU_u7sFQVUnI1md0NvcWuEgJctAlTn4-8Y7NiqsXM=w884-h666-no)
 
 ## Database diagram
 The diagram shows all the relationships between the 3 tables. 
@@ -111,7 +111,7 @@ The application is built with tools such as:
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Look the [LICENSE.txt](https://github.com/JuniorPoligraphist/CarFleetManager/blob/master/LICENSE/LICENSE.txt) file
+Car Fleet Manager used the GNU v3 GPL. Look the [LICENSE.txt](https://github.com/JuniorPoligraphist/CarFleetManager/blob/master/LICENSE/LICENSE.txt) file for more details
 
 ## Version
 Available build version of the application:
