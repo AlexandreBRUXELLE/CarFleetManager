@@ -118,8 +118,8 @@ Car Fleet Manager used the GNU v3 GPL. Look the [LICENSE.txt](https://github.com
 ## Version
 Available build version of the application:
 
-- `[assembly: AssemblyVersion("1.0.0.0")]`
-- `[assembly: AssemblyFileVersion("1.0.0.0")]`
+- `[assembly: AssemblyVersion("1.0.0.1")]`
+- `[assembly: AssemblyFileVersion("1.0.0.1")]`
 
 
 ## Special thanks
