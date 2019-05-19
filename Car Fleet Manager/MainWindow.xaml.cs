@@ -14,6 +14,9 @@ namespace Car_Fleet_Manager
     {
         readonly SqlConnection sqlConnection;
 
+        /// <summary>
+        ///Initialize Main Window
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -24,7 +27,6 @@ namespace Car_Fleet_Manager
 
             ShowAllCarFleets();
             ShowAllCars();
-
         }
 
         //show all Car Fleets in a listBox #1 (name: listCarFleet)
@@ -85,7 +87,7 @@ namespace Car_Fleet_Manager
 
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //  MessageBox.Show(ex.ToString());
             }
@@ -258,7 +260,7 @@ namespace Car_Fleet_Manager
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //  MessageBox.Show(ex.ToString());
             }
@@ -287,7 +289,7 @@ namespace Car_Fleet_Manager
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //  MessageBox.Show(ex.ToString());
             }
@@ -344,7 +346,7 @@ namespace Car_Fleet_Manager
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //  MessageBox.Show(ex.ToString());
             }
@@ -387,6 +389,7 @@ namespace Car_Fleet_Manager
             ShowSelectedAvailableCarInTextBox();
         }
 
+        // show the third wpf "About" window 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             AboutWindow aboutWindow = new AboutWindow();

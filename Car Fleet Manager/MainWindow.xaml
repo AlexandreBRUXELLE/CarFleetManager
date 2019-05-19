@@ -25,7 +25,7 @@
             ToolTip="Add car to list #3" ToolTipService.ShowDuration="3500"/>
 
         <Button Content="Update cars" HorizontalAlignment="Left" Height="40" Margin="569,464,0,0" VerticalAlignment="Top" Width="307" Background="#FFE4E4E4" Click="UpdateCarRegister_Click"
-            ToolTip="Update all cars in list #2" ToolTipService.ShowDuration="3500"/>
+            ToolTip="Update selected car in list #3" ToolTipService.ShowDuration="3500"/>
 
         <Button Content="Add car to car fleet" HorizontalAlignment="Left" Height="38" Margin="569,408,0,0" VerticalAlignment="Top" Width="307" Background="#FFE4E4E4" Click="AddCarToCarFleet_Click"
             ToolTip="Add car from list #3 to list #2" ToolTipService.ShowDuration="3500"/>

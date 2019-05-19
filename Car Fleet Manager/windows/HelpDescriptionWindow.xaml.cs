@@ -1,9 +1,4 @@
-﻿using Microsoft.Build.Tasks;
-using System;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
 
 namespace Car_Fleet_Manager
@@ -13,12 +8,15 @@ namespace Car_Fleet_Manager
     /// </summary>
     public partial class HelpDescriptionWindow : Window
     {
+        /// <summary>
+        /// Initialize Description Window
+        /// </summary>
         public HelpDescriptionWindow()
         {
             InitializeComponent();
-            
-            // change standart cursor (for editing)           
+
+            // change standard cursor (for editing)           
             richDescriptionBox.Cursor = Cursors.Arrow;
-        }       
+        }
     }
 }
