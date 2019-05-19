@@ -7,21 +7,21 @@
         mc:Ignorable="d"       
         Title="CarFleet Manager" Height="675" Width="900" ResizeMode="CanMinimize">
     <Grid Background="#FFF9F9F9">
-        <Label Content="List #1: Car fleets" HorizontalAlignment="Left" Height="32" Margin="15,30,0,0" VerticalAlignment="Top" Width="213"/>
+        <Label Content="List #1: Car fleets" HorizontalAlignment="Left" Height="32" Margin="15,30,0,0" Width="213" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         <ListBox x:Name="listCarFleet" HorizontalAlignment="Left" Height="325" Margin="15,62,0,0" VerticalAlignment="Top" Width="213" SelectionChanged="ListCarFleet_SelectionChanged"/>
 
         <Button x:Name="deleteCarFleet" Content="Delete car fleet" HorizontalAlignment="Left" Height="40" Margin="14,464,0,0" VerticalAlignment="Top" Width="214" Background="#FFE4E4E4" Click="DeleteCarFleet_Click"
             ToolTip="Delete car fleet from list #1" ToolTipService.ShowDuration="3500"/>
 
-        <Label Content="List #2: Available cars" HorizontalAlignment="Left" Height="32" Margin="287,30,0,0" VerticalAlignment="Top" Width="213"/>
-        <ListBox x:Name="listAvailableCars" HorizontalAlignment="Left" Height="441" Margin="287,67,0,0" VerticalAlignment="Top" Width="212" SelectionChanged="ListAvailableCars_SelectionChanged"/>
-        <Label Content="List #3: Register of all cars" HorizontalAlignment="Left" Height="32" Margin="564,30,-19,0" VerticalAlignment="Top" Width="347"/>
+        <Label Content="List #2: Available cars" HorizontalAlignment="Left" Height="32" Margin="263,30,0,0" VerticalAlignment="Top" Width="263" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <ListBox x:Name="listAvailableCars" HorizontalAlignment="Left" Height="441" Margin="263,67,0,0" VerticalAlignment="Top" Width="263" SelectionChanged="ListAvailableCars_SelectionChanged"/>
+        <Label Content="List #3: Register of all cars" HorizontalAlignment="Left" Height="32" Margin="564,30,0,0" VerticalAlignment="Top" Width="312" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         <ListBox x:Name="listAllCars" HorizontalAlignment="Left" Height="325" Margin="569,62,0,0" VerticalAlignment="Top" Width="307" SelectionChanged="ListAllCars_SelectionChanged"/>
 
         <Button x:Name="addCarFleet" Content="Add car fleet" HorizontalAlignment="Left" Height="38" Margin="15,408,0,0" VerticalAlignment="Top" Width="213" Background="#FFE4E4E4" Click="AddCarFleet_Click"
                 ToolTip="Add car fleet to list #1" ToolTipService.ShowDuration="3500"/>
 
-        <Button Content="Add car" HorizontalAlignment="Left" Height="38" Margin="287,586,0,0" VerticalAlignment="Top" Width="213" Background="#FFE4E4E4" Click="AddCar_Click"
+        <Button Content="Add car" HorizontalAlignment="Left" Height="38" Margin="263,586,0,0" VerticalAlignment="Top" Width="263" Background="#FFE4E4E4" Click="AddCar_Click"
             ToolTip="Add car to list #3" ToolTipService.ShowDuration="3500"/>
 
         <Button Content="Update cars" HorizontalAlignment="Left" Height="40" Margin="569,464,0,0" VerticalAlignment="Top" Width="307" Background="#FFE4E4E4" Click="UpdateCarRegister_Click"
