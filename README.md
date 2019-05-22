@@ -13,7 +13,7 @@ The application is called **"Car Fleet Manager"**. It is was developed in C# pro
 ## Connect to database
 The first, create a WPF project (.Net Framework). The next step you need to create a database (the *"Server Explorer"* window). Right-click on the *"Create New SQL Server Database..."* item.
 
-To connect to the database, you need to use the [SqlConnection Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection?view=netframework-4.8). The variable *connectionStringDB* you need to declare in the constructor. And also, you need to add the *using System.Configuration* reference.
+To connect to the database, you need to use the [SqlConnection Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection?view=netframework-4.8). The variable *connectionStringDB* you need to declare in the constructor. And also, you need to add the *using System.Configuration* reference. An example code for connecting to a database is shown below.
 
 ```csharp
  using System.Configuration;
@@ -33,7 +33,7 @@ To connect to the database, you need to use the [SqlConnection Class](https://do
  }
 ```
 
-In the Visual Studio you can visually see this path, write to the variable *connectionStringDB.*
+In the Visual Studio you can visually see this path, that is written to the *connectionStringDB* variable.
 
 ![ConnectionString](https://lh3.googleusercontent.com/1629qw7ZhnE7Vc14DdCr2ElkPocjI-yiM3r6gUH4VMikoW1aSuNsfBPfXr-8G58pMbA40syL-d79v6jI71htEE3hKME0Bwd3imo9GaVvCDhkq0fgtWWxrnE9PanRc88f6JMYhoc37V-nl6IYNA47naautZjcfdH6CsrFuZca3S-zpNsSjzBv90N-EPFGtxhqt6OjA4sQCg912k188iX8w25aCgs6hzpI1fyBqO7250XAIKb3KmyhVtSTTpahfjXR9M7_0Na7qbroMrlGSouIT0FFY1aPL4lxEsWJcArWeU4syWL_XhQZ_WXWX3DrBnJ8YGEOnzS9wGVc0OXEhEkjj9NCcl-BNoKeJHcDokRd6vmjx0kPkyAIEweoHsxUnBccYUgzx28VYcwLwJhX7oIRqQNrwMw31KwdhjECr3P-fdh8k0RVsODLEi-UNjSYe6XUNQYXyyOhrJrPYUplmrEufXy5hhj0U34dltBcQ5tkyEdmTEIzAVzSDdaLWlxt0AsrFgi2HJbGIVPY8WuGxfirjmoVnxb18n9falUygczSj2lKGhT596EBkEJnum0khunjAZKZr_rMMU0VdIPRoICmvKywkxtCnr7wJ_t0utJBnLLaEtL-VP7drjuRfYWsilmmzadec_TgBuOUD2nz7BbHAeR1u1TXkt4=w353-h275-no)
 
@@ -104,8 +104,8 @@ CREATE TABLE [dbo].[CarRegister] (
 ## Built With
 The application is built with tools such as:
 
-- [Microsoft Visual Studio Enterprise 2019 Preview](https://visualstudio.microsoft.com/) -  is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services and mobile apps.
-- [Blend for Visual Studio Enterprise 2019 Preview](https://visualstudio.microsoft.com/) - is a user interface design tool developed and sold by Microsoft for creating graphical interfaces for web and desktop applications that blend the features of these two types of applications.
+- [Microsoft Visual Studio Enterprise 2019 Preview](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services and mobile apps.
+- [Blend for Visual Studio Enterprise 2019 Preview](https://visualstudio.microsoft.com/) is a user interface design tool developed and sold by Microsoft for creating graphical interfaces for web and desktop applications that blend the features of these two types of applications.
 - [Microsoft SQL Server 2017 Delevoper Edition](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads) is a relational database management system developed by Microsoft. SQL Server includes the same features as SQL Server Enterprise Edition, but is limited by the license to be only used as a development and test system, and not as production server. Starting early 2016, Microsoft made this edition free of charge to the public.
 - [Microsoft SQL Server Management Studio 17.9.1 (SSMS)](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) is a software application first launched with Microsoft SQL Server 2005 that is used for configuring, managing, and administering all components within Microsoft SQL Server.
 
