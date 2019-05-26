@@ -4,7 +4,7 @@ Hello, dear reader! I am sure you are a fan of cars. Even if not, it will be a p
 
 
 ## Get started
-The application is called Car **"Fleet Manager."** It is was developed in C# programming language and created on the old and right WPF technology. On the server side, T-SQL queries are used. So let's see a short demo on how to app works.
+The application is called **"Car Fleet Manager."** It is was developed in C# programming language and created on the old and right WPF technology. On the server side, T-SQL queries are used. So let's see a short demo on how to app works.
 
 ![demo](https://lh3.googleusercontent.com/vyBs8p26-FSC6lkOCQDjVCCa07a1RC60VUl5QsBy6m3ys_041jsGdkBpVbDvwINIrSA-VD7tg8f356dFdoCAAlWmvEqHlsBua-fTUaRoJ5wcsT7fFH8k4XwIC7jlLlv44U9TJjBKvdOGvFGe9KtRgGgYFfu4_WOpo6YZu2O91_YcXNcAKMPX3w6NJfvRkI4A8knS8mJA7heKJFSGcfeQANr1RojD4CFyb8rydSJWWokYljEyAkIwSmBpM_MeiKLmm0EECNWio9MH8c2mFuOQDiK5Ok1Ca8DalZpsq6uhfCDaIB5RGnsmsW5CE9wFp6tFs1FBNwZqchqtmOj8jez3ZtvJa5XPx3Bk-1Y6d7FD04kCrdxuTalTFAF1rPvTF1OBzbTH2CwCSBVOfumzz1dGifkzVSL0iGz7fiGUfaFyCoNms2g7YVYLP2D6xpGCfnUwA0Z6k0Tm7hAWYrPS_cjDkghUYoTQQRD86eIDAHuxjdZRJtmDsGgkKH2aftJsYDN-sAc9Pl7Y2W-N2gGlcwVMAqs3cLu7s3LKzG8iyY0Wnvw1G_iCc0sI0gWYNgeH1pleR1pDd1zXkSdH0p_G7cBKDpeHDIO7_2brE-KPc6rbCk4Gja1r_ZKtxATpsffYbbO7QW9OJfs0IRWpeZuuf1P-1Qj_VdZzjTg=w500-h378-no)
 
