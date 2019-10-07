@@ -35,7 +35,7 @@ For connect to the database, you need to use the [SqlConnection Class](https://d
 
 In the Visual Studio, you can visually see this path, that is written to the *connectionStringDB* variable.
 
-![ConnectionString](https://lh3.googleusercontent.com/1629qw7ZhnE7Vc14DdCr2ElkPocjI-yiM3r6gUH4VMikoW1aSuNsfBPfXr-8G58pMbA40syL-d79v6jI71htEE3hKME0Bwd3imo9GaVvCDhkq0fgtWWxrnE9PanRc88f6JMYhoc37V-nl6IYNA47naautZjcfdH6CsrFuZca3S-zpNsSjzBv90N-EPFGtxhqt6OjA4sQCg912k188iX8w25aCgs6hzpI1fyBqO7250XAIKb3KmyhVtSTTpahfjXR9M7_0Na7qbroMrlGSouIT0FFY1aPL4lxEsWJcArWeU4syWL_XhQZ_WXWX3DrBnJ8YGEOnzS9wGVc0OXEhEkjj9NCcl-BNoKeJHcDokRd6vmjx0kPkyAIEweoHsxUnBccYUgzx28VYcwLwJhX7oIRqQNrwMw31KwdhjECr3P-fdh8k0RVsODLEi-UNjSYe6XUNQYXyyOhrJrPYUplmrEufXy5hhj0U34dltBcQ5tkyEdmTEIzAVzSDdaLWlxt0AsrFgi2HJbGIVPY8WuGxfirjmoVnxb18n9falUygczSj2lKGhT596EBkEJnum0khunjAZKZr_rMMU0VdIPRoICmvKywkxtCnr7wJ_t0utJBnLLaEtL-VP7drjuRfYWsilmmzadec_TgBuOUD2nz7BbHAeR1u1TXkt4=w353-h275-no)
+![ConnectionString](https://github.com/SunlistOG/CarFleetManager/blob/master/ConnString.png)
 
 
 ## The user interface of the app
@@ -54,7 +54,7 @@ Also, the application has an input field for editing object names in all three l
   
 Application has three windows. The Main Window looks like this. 
 
-![MainWindow](https://lh3.googleusercontent.com/b_seff9EXmrz4KjxHH3fJg1utT4j-zdYyaK6zNhjzLKYQCur_0OSRb3cUn07Ul1qhcA69SRBlkQarup4pqfFuQ4snUNqG1n-V7lOkEkfg3vKvbezLRX78TbV39tWleM-vRfzRDU3rYK0oUAmUhC_f0XdUyP2394I6bZnBfYXojdWCesf8o1CguosyicPIv3QO9ttSYEpNkwOiuMBvoJBVDdYX5qnAG1kJKZGqz9-ZfgrwCGvmx9L8sm15iqbXtuN7WadP6pSG3jOW819nxl4VUVg4IMP6Pwd7S0W2EVQDeDS0WcQpXTTMnFUPg5HqWg4OU4zcI3SxHW010M4FBuTSMUjlLfakOJfccIizscoYTXNqcRkEpg_W7KAEpmZ6KD4hD4p7cQqsVaHfTMYqQ2FaHvlT8EOLKPBiRFdIGOEDtiB4j3KlNexQEuyGfjuonX3EhU1foIjjgnOvKudYRrIHZWxLnWEDNYrnfmETLiL3zhLWD8nhgTRDTyWMgTv517jgf1mq-Yh9cmWjDCSBYEcbzDisk1LbdOVAkZFK-olRvejyFfYjHsQ3bonjz4H8kb2s82asm4PQSsBChkFsZLI8r_hgvv9JFQ1PSreuyudpwe836xWPg5tC8NU_u7sFQVUnI1md0NvcWuEgJctAlTn4-8Y7NiqsXM=w884-h666-no)
+![MainWindow](https://github.com/SunlistOG/CarFleetManager/blob/master/Main%20Window.jpg)
 
 
 ## Database diagram
@@ -67,7 +67,7 @@ And the latest CarRegister table shows all available machines that are currently
 T-SQL queries are shown below.
 
 
-![Diagram](https://lh3.googleusercontent.com/ZZCGJiEj_QPE-2IwvQrv3F1FmAW3JgsRF9heVOrgrPMciPuHz-zR8kHZ-tnbRQIrL3eqVGNNq4DHQ7J6UAw3BQksPek8a88N2yxBmzNjsOUAMUUe4dAzPw4lWOoA1anLMiiYDsNcWaHQelDMXMBR8p2Mjyju1xesUSe5sPgmRzAUHZ50-3ChRLfj_-0CwSQvab_SFSBoWmhO-ZVrZ_6yPSWBJT1Iylv868aDZpJDk7WBizz7hKdI07OrN2iHfWDAb9f2u_jNY8sZOnvfxtbzenLpJrj5g8RmMTiwdu4M6FwbAzU45Ra9w4zPbkXunQ4qoPrcjlE4duQJbHN77vcMcycLZvv68BZhDIwLQZWPHrH2DyBzq-Ky8PPvbYDAa5hm2LOjCUWHPMJXdAItrOot06jNphgGEti_vr7PHnI05KaFdfUeJ2M5_yPdX-M4D7B3w2h7N3gqwr6SAiHQcGABM9dOT6VK9Manq0LU3Jwg1Ae9aFDHSdqGMcRMhYzxPunCCCr6S8omuRO7tiY-5a1tyPZ4ny0wIwUg3C1voyonmZDOribO1BWSreWwKrAaSAw0gazd2bMNoZ9N-euRlA1-rl30bBp2EoKPDWVtAKXEfN41-89LMyAWggL9bVxYO37_xJcY-vhzFjtojyv-AmCXf-DPGawhssY=w745-h436-no)
+![Diagram](https://github.com/SunlistOG/CarFleetManager/blob/master/Diagram.png)
 
 
 **T-SQL query for CarFleet table**
