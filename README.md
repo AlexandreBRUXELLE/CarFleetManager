@@ -1,26 +1,26 @@
 # Car Fleet Manager
 
-Hello, dear reader! I am sure you are a fan of cars. Even if not, it will be a perfect example to work with vehicles and databases. Well, let's look at the application.
+Hello, dear reader! I'm sure you are a fan of cars. Even if not, it will be a cool example to work with vehicles and databases for you. Well, let's look at the application.
 
 
 ## Get started
-The application is called **"Car Fleet Manager."** It is was developed in C# programming language and created on the old and right WPF technology. On the server side, T-SQL queries are used. So let's see a short demo on how to app works.
+The application is called **"Car Fleet Manager."** It's was developed in C# programming language using the old but still good WPF (Windows Presentation Foundation) technology. On the server side, T-SQL queries are used. So let's see a short demo on how to app works. Of course, I have a link on youtube, click on image below.
 
-![demo](https://lh3.googleusercontent.com/vyBs8p26-FSC6lkOCQDjVCCa07a1RC60VUl5QsBy6m3ys_041jsGdkBpVbDvwINIrSA-VD7tg8f356dFdoCAAlWmvEqHlsBua-fTUaRoJ5wcsT7fFH8k4XwIC7jlLlv44U9TJjBKvdOGvFGe9KtRgGgYFfu4_WOpo6YZu2O91_YcXNcAKMPX3w6NJfvRkI4A8knS8mJA7heKJFSGcfeQANr1RojD4CFyb8rydSJWWokYljEyAkIwSmBpM_MeiKLmm0EECNWio9MH8c2mFuOQDiK5Ok1Ca8DalZpsq6uhfCDaIB5RGnsmsW5CE9wFp6tFs1FBNwZqchqtmOj8jez3ZtvJa5XPx3Bk-1Y6d7FD04kCrdxuTalTFAF1rPvTF1OBzbTH2CwCSBVOfumzz1dGifkzVSL0iGz7fiGUfaFyCoNms2g7YVYLP2D6xpGCfnUwA0Z6k0Tm7hAWYrPS_cjDkghUYoTQQRD86eIDAHuxjdZRJtmDsGgkKH2aftJsYDN-sAc9Pl7Y2W-N2gGlcwVMAqs3cLu7s3LKzG8iyY0Wnvw1G_iCc0sI0gWYNgeH1pleR1pDd1zXkSdH0p_G7cBKDpeHDIO7_2brE-KPc6rbCk4Gja1r_ZKtxATpsffYbbO7QW9OJfs0IRWpeZuuf1P-1Qj_VdZzjTg=w500-h378-no)
 
+[![demo](http://img.youtube.com/vi/e23ARn997sQ/0.jpg)](http://www.youtube.com/watch?v=e23ARn997sQ "Click me and go to youtube for watch demo")
 
 
 ## Connect to database
 The first, create a WPF project (.Net Framework). The next step you need to create a database (the *"Server Explorer"* window). Right-click on the *"Create New SQL Server Database..."* item.
 
-To connect to the database, you need to use the [SqlConnection Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection?view=netframework-4.8). The variable *connectionStringDB* you need to declare in the constructor. And also, you need to add the *using System.Configuration* reference. Example code for connecting to a database is shown below.
+For connect to the database, you need to use the [SqlConnection Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection?view=netframework-4.8). The variable *connectionStringDB* you need to declare in the constructor. And also, you need to add the *using System.Configuration* reference. Example code for connecting to a database is shown below.
 
 ```csharp
  using System.Configuration;
 
  public partial class MainWindow : Window
  {
-        readonly SqlConnection sqlConnection;
+        SqlConnection sqlConnection;
 
         public MainWindow()
         {
@@ -50,7 +50,7 @@ There are opportunities to add, update, and delete objects in lists. All buttons
    
 **Powerful input field**
 
-   Also, the application has an input field for editing object names in all three lists. With the "Update"  button, you can set a written value.
+Also, the application has an input field for editing object names in all three lists. With the "Update"  button, you can set a written value.
   
 Application has three windows. The Main Window looks like this. 
 
@@ -108,15 +108,17 @@ The application is built with tools such as:
 
 - [Microsoft Visual Studio Enterprise 2019 Preview](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services, and mobile apps.
 - [Blend for Visual Studio Enterprise 2019 Preview](https://visualstudio.microsoft.com/) is a user interface design tool developed and sold by Microsoft for creating graphical interfaces for web and desktop applications that blend the features of these two types of applications.
-- [Microsoft SQL Server 2017 Developer Edition](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads) is a relational database management system developed by Microsoft. SQL Server includes the same features as SQL Server Enterprise Edition but is limited by the license to be only used as a development and test system, and not a production server. Starting early 2016, Microsoft made this edition free of charge to the public.
-- [Microsoft SQL Server Management Studio 17.9.1 (SSMS)](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) is a software application first launched with Microsoft SQL Server 2005 that is used for configuring, managing, and administering all components within Microsoft SQL Server.
+- [Microsoft SQL Server 2017 Developer Edition](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) is a relational database management system developed by Microsoft. SQL Server includes the same features as SQL Server Enterprise Edition but is limited by the license to be only used as a development and test system, and not a production server. Starting early 2016, Microsoft made this edition free of charge to the public.
+- [Microsoft SQL Server Management Studio 17.9.1 (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) is a software application first launched with Microsoft SQL Server 2005 that is used for configuring, managing, and administering all components within Microsoft SQL Server.
+
+**Note!** Don't be afraid, when you see a Visual Studio preview version. I'm used the preview version for testing. And **you can also use the free Community version of Visual Studio and Blend too.**
 
 
 ## License
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Car Fleet Manager used the GNU v3 GPL. Look the [LICENSE.txt](https://github.com/JuniorPoligraphist/CarFleetManager/blob/master/LICENSE/LICENSE.txt) file for more details
+Car Fleet Manager used the GNU v3 GPL. Look the [LICENSE.txt](https://github.com/SunlistOG/CarFleetManager/blob/master/LICENSE/LICENSE.txt) file for more details
 
 ## Version
 The available build version of the application:
@@ -127,7 +129,7 @@ The available build version of the application:
 
 ## Special thanks
 
-And in the end, I want to thank Denis Panjuta for a great C# course: 
+In the end, I want to thank Denis Panjuta for a great C# course: 
 [Complete C# Masterclass](https://www.udemy.com/course/complete-csharp-masterclass/ "Complete C# Masterclass")
 
 Thank you, Denis! :sunglasses::blush::smiley:
